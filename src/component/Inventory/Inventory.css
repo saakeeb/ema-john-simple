@@ -1,0 +1,20 @@
+button{
+    width: 180px;
+    height: 30px;
+    background-color: goldenrod;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 6px lightslategray;
+}
+
+
+button:hover {
+    background-color: gold}
+
+button:active {
+  background-color: gold;
+  box-shadow: 0 5px lightgray;
+  transform: translateY(4px);
+}

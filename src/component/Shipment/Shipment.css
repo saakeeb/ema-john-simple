@@ -1,0 +1,34 @@
+.ship-form{
+    margin: 30px  60px ;
+    position: relative;
+    background: #111;
+    overflow: hidden;
+    border-radius: 5px;
+    width: 400px;
+    height: 380px;
+    overflow: scroll;
+    background-image: url(https://ak6.picdn.net/shutterstock/videos/18125806/thumb/1.jpg);
+ }
+h3{
+    text-align: center;
+    margin: 25px 0;
+}
+.ship-form input{
+    display: absolute;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    width: 350px;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.ship-form input:focus{
+    outline: none;
+}
+    
+.error{
+    color: red;
+    margin-top: 5px;
+    margin-left: 15px;
+}
