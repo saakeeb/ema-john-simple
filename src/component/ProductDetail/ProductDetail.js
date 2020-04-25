@@ -9,6 +9,7 @@ const ProductDetail = () => {
 
 
     //here we change localhost
+    //sakib
     useEffect(()=>{
         fetch('https://arcane-scrubland-67183.herokuapp.com/product/'+productKey)
         .then(res=> res.json())
