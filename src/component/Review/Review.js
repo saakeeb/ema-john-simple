@@ -29,7 +29,7 @@ const Review = () => {
         const savedCart = getDatabaseCart();
         const productKeys = Object.keys(savedCart);
         console.log(productKeys);
-        fetch('http://localhost:3000/getProductsByKey', {
+        fetch('https://arcane-scrubland-67183.herokuapp.com/getProductsByKey', {
                 method: "POST",
                 headers: {
                   "Content-Type": "application/json"

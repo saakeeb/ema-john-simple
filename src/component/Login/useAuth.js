@@ -6,6 +6,7 @@ import React from 'react';
 import { useContext } from "react";
 import {Route, Redirect} from 'react-router-dom';
 
+
 firebase.initializeApp(firebaseConfig);
 
 const AuthContext = createContext();

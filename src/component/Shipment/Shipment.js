@@ -34,7 +34,7 @@ const Shipment = () => {
       payment: payment
     };
 
-    fetch('http://localhost:3000/placeOrder', {
+    fetch('https://arcane-scrubland-67183.herokuapp.com/placeOrder', {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
