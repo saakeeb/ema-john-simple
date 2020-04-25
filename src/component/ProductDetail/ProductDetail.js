@@ -8,7 +8,7 @@ const ProductDetail = () => {
     const [product, setProduct] = useState(null);
 
 
-    //here we change localhost to heroku cloud system
+    //here we change localhost
     useEffect(()=>{
         fetch('https://arcane-scrubland-67183.herokuapp.com/product/'+productKey)
         .then(res=> res.json())
